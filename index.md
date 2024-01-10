@@ -1,4 +1,4 @@
-** Markdown Practice:**
+# Markdown Practice:
 
 *Hello, World!*
 
@@ -21,6 +21,16 @@
 1. One
 2. Two
 3. Three
+
+---
+
+`Whoah` that looks cool!
+
+```
+Imagine this text was some fancy code!
+```
+
+
 
 
 

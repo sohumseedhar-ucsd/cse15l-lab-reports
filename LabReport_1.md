@@ -20,7 +20,7 @@
 
 * The working directory when `cd Hello.java` and `cd Hello.class` was ran was `/home/lecture1`.
 * The output of our command produces an error in the bash script: `bash: cd: Hello.java: Not a directory`. This is because the cd command must be followed by a path to a directory or folder and cannot change directory to a specific text or code file. 
-* This output was not an error and what we expected we to see.
+* This output was an error and what we expected we to see since `cd Hello.java` and `cd Hello.class` are not directories. 
 
 
 

@@ -32,7 +32,7 @@
 
 ## `ls` Command With a Path to a Directory as an Argument:
 
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20at%2011.01.01%20PM.png?raw=true)
+![Image]([https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20at%2011.01.01%20PM.png?raw=true](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-12%20at%201.38.35%20PM.png?raw=true))
 
 * The working directory when `ls lecture1/` was ran was `/home`.
 * This command resulted in the output `Hello.class`, `Hello.java`, `messages`, and `README`. Here, we applied the `ls` command to the argument `lecture1/` to indicate that we want the list of all the files within the `/lecture` directory. 

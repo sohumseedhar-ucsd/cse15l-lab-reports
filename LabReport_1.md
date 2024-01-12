@@ -27,9 +27,18 @@
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20at%2011.27.14%20PM.png?raw=true)
 
 * The working directory when `ls` was ran was `/home`.
-* This command resulted in no output because the `cd` command is used to change the working directory when there is a path to another directory given after the command. However, in this case no path (argument) was given, so there was no output.
-* As a result, NO output is what we expected we to see.
+* This command resulted in the output `lecture` because the `ls` command is used to output/list all the files within the current directory. 
+* The working directory was /home, so we expected to see only `lecture1` as our output. 
 
+## `ls` Command With a Path to a Directory as an Argument:
+
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20at%2011.01.01%20PM.png?raw=true)
+
+* The working directory when `cd lecture1/` was ran was `/home`.
+* This command did not produce an output but the `cd lecture1/` command changed the working directory to `/home/lecture1`. While there is not output, the command line reflects this change by changing `[user@sahara ~]$` to `[user@sahara ~ /lecture1]$`. 
+* This output was not an error and what we expected we to see.
+
+## `cd` Command With a Path to a File as an Argument:
   
 
 

@@ -35,7 +35,7 @@
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-12%20at%201.38.35%20PM.png?raw=true)
 
 * The working directory when `ls lecture1/` was ran was `/home`.
-* This command resulted in the output `Hello.class`, `Hello.java`, `messages`, and `README`. Here, we applied the `ls` command to the argument `lecture1/` to indicate that we want the list of all the files within the `/lecture` directory. 
+* This command resulted in the output `Hello.class`, `Hello.java`, `messages`, and `README`. Here, we applied the `ls` command with the argument `lecture1/` to indicate that we want the list of all the files within the `/lecture1` directory. 
 * The output was not an error and was what we expected we to see.
 
 ## `ls` Command With a Path to a File as an Argument:
@@ -43,8 +43,8 @@
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-12%20at%201.44.29%20PM.png?raw=true)
 
 * The working directory when `ls Hello.java`, `ls Hello.class`, and `ls README` was `/home/lecture1`.
-* This command resulted in the output `Hello.class`, `Hello.java`, `messages`, and `README`. Here, we applied the `ls` command to the argument `lecture1/` to indicate that we want the list of all the files within the `/lecture` directory. 
-* The output was not an error and was what we expected we to see.
+* When the `ls` command was given with a path to a file as an argument, it simply resulted in the output of the name of the file given as an argument: `Hello.class`, `Hello.java`, `messages`, and `README`. 
+* The output was not an error and was what we expected we to see. The only error we encountered when giving a path to file as an argument was that the file given as an argument had to be in the current working directory for the command to work. 
 
 
 

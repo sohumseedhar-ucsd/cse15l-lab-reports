@@ -62,6 +62,26 @@
 * This command resulted in the following error message: `cat: lecture1/: Is a directory`. Here, we applied the `cat` command with the argument `lecture1/`, but the `cat` command can only take paths to a file as an argument and does not work when a path to a directory is given as an argument.  
 * The output was an error message because as mentioned, the `cat` command can only take paths to a file as an argument and does not work when a path to a directory is given as an argument.
 
+## `cat` Command With a Path to a File as an Argument:
+  
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-12%20at%201.44.29%20PM.png?raw=true)
+
+* The working directory when `cat lecture1/Hello.java` was ran was `/home`.
+* When the `cat` command was given a path to a file as an argument, it resulted in the output being the entirety of that file's content being porinted. The output I received when giving a path to the `Hello.java` file was
+
+> `import java.io.IOException;
+> import java.nio.charset.StandardCharsets;
+> import java.nio.file.Files;
+> import java.nio.file.Path;
+
+> public class Hello {
+>  public static void main(String[] args) throws IOException {
+>    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+>    System.out.println(content);
+>  } 
+
+* The output was not an error and was what we expected we to see. The only error we encountered when giving a path to file as an argument was that the file given as an argument had to be in the current working directory for the command to work. 
+
 
 
 

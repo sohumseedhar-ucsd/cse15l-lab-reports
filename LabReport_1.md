@@ -83,7 +83,7 @@
 >     System.out.println(content);
 >   } 
 
-* The output was not an error and was what we expected we to see. The only error we encountered when giving a path to file as an argument was that the file given as an argument had to be in the current working directory for the command to work. 
+* The output was not an error and was what we expected we to see. The output was the entire file content of the `Hello.java` file.  
 
 
 

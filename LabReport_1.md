@@ -52,7 +52,18 @@
 
 * The working directory when `cat` was ran was `/home`.
 * This command resulted in no output because the `cat` command is used to print out the content of one or more files given by the paths as arguments. Here we used no arguments so the command did not have a path to print out the contents of any files.  
-* The output did not display an error message, there was simply no output.  
+* The output did not display an error message, there was simply no output.
+
+## `cat` Command With a Path to a Directory as an Argument:
+
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-13%20at%207.05.31%20PM.png?raw=true)
+
+* The working directory when `cat lecture1/` was ran was `/home`.
+* This command resulted in the following error message: `cat: lecture1/: Is a directory`. Here, we applied the `cat` command with the argument `lecture1/`, but the `cat` command can only take paths to a file as an argument and does not work when a path to a directory is given as an argument.  
+* The output was an error message because as mentioned, the `cat` command can only take paths to a file as an argument and does not work when a path to a directory is given as an argument.
+
+
+
 
 
 

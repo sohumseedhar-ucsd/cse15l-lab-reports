@@ -64,7 +64,7 @@
 
 ## `cat` Command With a Path to a File as an Argument:
   
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-12%20at%201.44.29%20PM.png?raw=true)
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-13%20at%207.19.20%20PM.png?raw=true)
 
 * The working directory when `cat lecture1/Hello.java` was ran was `/home`.
 * When the `cat` command was given a path to a file as an argument, it resulted in the output being the entirety of that file's content being porinted. The output I received when giving a path to the `Hello.java` file was

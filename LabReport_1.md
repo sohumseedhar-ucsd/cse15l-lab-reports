@@ -48,11 +48,11 @@
 
 ## `cat` Command With No Arguments:
 
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20at%2011.27.14%20PM.png?raw=true)
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-13%20at%207.01.16%20PM.png?raw=true)
 
 * The working directory when `cat` was ran was `/home`.
-* This command resulted in the output `lecture1` because the `ls` command is used to output/list all the files within the current directory. 
-* The working directory was /home, so we expected to see only `lecture1` as our output. 
+* This command resulted in no output because the `cat` command is used to print out the content of one or more files given by the paths as arguments. Here we used no arguments so the command did not have a path to print out the contents of any files.  
+* The output did not display an error message, there was simply no output.  
 
 
 

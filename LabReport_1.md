@@ -4,7 +4,7 @@
 
 * The working directory when `cd` was ran was `/home`.
 * This command resulted in no output because the `cd` command is used to change the working directory when there is a path to another directory given after the command. However, in this case no path (argument) was given, so there was no output.
-* As a result, NO output is what we expected we to see.   
+* As a result, the ouptut was not an error and NO output is what we expected we to see. 
 
 ## `cd` Command With a Path to a Directory as an Argument:
 

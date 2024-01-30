@@ -3,7 +3,7 @@
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-10%20at%2010.02.10%20PM.png?raw=true)
 
 * The working directory when `cd` was ran was `/home`.
-* This command resulted in no output because the `cd` command is used to change the working directory when there is a path to another directory given after the command. However, in this case no path (argument) was given, so there was no output.
+* This command resulted in no output because the `cd` command is used to change the working directory when there is a path to another directory given after the command. However, in this case no path (argument) was given, so there was no output. If we were to do `cd` and then write the name of a directory, we would then change our current working directory to the directory we named. This change would be represented by `[user@sahara ~]$` being changed to `[user@sahara ~ /[directory name here]$`. 
 * As a result, the ouptut was not an error and NO output is what we expected we to see. 
 
 ## `cd` Command With a Path to a Directory as an Argument:

@@ -28,7 +28,7 @@
 
 * The working directory when `ls` was ran was `/home`.
 * This command resulted in the output `lecture1` because the `ls` command is used to output/list all the files within the current directory. 
-* The working directory was /home, so we expected to see only `lecture1` as our output. 
+* The output was not an error. The working directory was /home, so we expected to see only `lecture1` as our output. 
 
 ## `ls` Command With a Path to a Directory as an Argument:
 

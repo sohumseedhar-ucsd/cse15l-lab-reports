@@ -44,7 +44,7 @@
 
 * The working directory when `ls Hello.java`, `ls Hello.class`, and `ls README` was `/home/lecture1`.
 * When the `ls` command was given with a path to a file as an argument, it simply resulted in the output of the name of the file given as an argument: `Hello.class`, `Hello.java`, `messages`, and `README`. 
-* The output was not an error and was what we expected we to see. The only error we encountered when giving a path to file as an argument was that the file given as an argument had to be in the current working directory for the command to work. 
+* The output was not an error and was what we expected we to see. If the file is not in the current working directory, we can also provide the relative/absolute path of the file after `ls` to avoid performing multiple commands. 
 
 ## `cat` Command With No Arguments:
 

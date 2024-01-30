@@ -40,4 +40,14 @@ public class ChatServer {
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.39.42%20PM.png?raw=true)
 
+## Screenshot 2 of `/add-message` code:
+
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.41.59%20PM.png?raw=true)
+
+
+
+
+
+
+
 

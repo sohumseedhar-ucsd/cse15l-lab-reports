@@ -72,6 +72,12 @@ public class ChatServer {
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of the `chatInput` field changes from an empty string ```jpolitz: Hello\nSohum: How Are You Doing!\n``` to ```"jpolitz: Hello\nSohum: How Are You Doing!\nOtherPerson: Im good thanks"``` as the method finds the user and the message from the url argument and append it to the String `chatInput`.
 
+## Absolute Path to Private Key:
+![Image]()
+
+## Absolute Path to Public Key:
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%209.37.54%20PM.png?raw=true)
+
 ## Screenshot of logging into `ieng6` without password authentification:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%205.03.42%20PM.png?raw=true)
 

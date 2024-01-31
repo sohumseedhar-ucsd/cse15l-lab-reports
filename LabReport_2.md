@@ -41,7 +41,16 @@ public class ChatServer {
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.39.42%20PM.png?raw=true)
 
 * Which methods in your code are called?
+  The `handleRequest` method in the `ChatHandler` class is called to handle the incoming request.
+  Example:
+  ```
+  ChatHandler.handleRequest(URI url);
+  ```
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+  The arguments (url) for this method in this screenshot `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How Are You         Doing!&user=Sohum`. The relevant field of this class is the `chatInput` field, which originally has a value of an empty string:
+  ```
+  private String chatInput = "";
+  ```
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 ## Screenshot 2 of using `/add-message`:

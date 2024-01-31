@@ -40,11 +40,17 @@ public class ChatServer {
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.39.42%20PM.png?raw=true)
 
+* Which methods in your code are called?
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 ## Screenshot 2 of `/add-message` code:
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.41.59%20PM.png?raw=true)
 
-
+* Which methods in your code are called?
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 
 

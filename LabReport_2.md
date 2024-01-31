@@ -1,4 +1,4 @@
-## `chatserver` code:
+## `ChatServer` code:
 
 ```
 import java.io.IOException;

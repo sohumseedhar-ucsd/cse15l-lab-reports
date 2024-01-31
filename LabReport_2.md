@@ -47,7 +47,7 @@ public class ChatServer {
   ChatHandler.handleRequest(URI url);
   ```
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  The arguments (url) for this method in this screenshot `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How Are You         Doing!&user=Sohum`. The relevant field of this class is the `chatInput` field, which originally has a value of an empty string:
+  The arguments (url) for this method in this screenshot `/add-message?s=Hello&user=jpolitz` and `/add-message?s=How Are You   Doing!&user=Sohum`. The relevant field of this class is the `chatInput` field, which originally has a value of an empty string:
   ```
   private String chatInput = "";
   ```

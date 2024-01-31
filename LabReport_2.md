@@ -36,7 +36,7 @@ public class ChatServer {
 
 ```
 
-## Screenshot 1 of `/add-message` code:
+## Screenshot 1 of using `/add-message`:
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.39.42%20PM.png?raw=true)
 
@@ -44,7 +44,7 @@ public class ChatServer {
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-## Screenshot 2 of `/add-message` code:
+## Screenshot 2 of using `/add-message`:
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.41.59%20PM.png?raw=true)
 

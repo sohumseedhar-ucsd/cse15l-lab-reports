@@ -52,7 +52,7 @@ public class ChatServer {
   private String chatInput = "";
   ```
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and the message from the url argument and append it to the String `chatInput`. The value of the `chatInput` field then changes again from an empty string ```"jpolitz: Hello\n"``` to ```"Sohum: How Are You Doing!\n"``` as the method finds the user and the message from the next url argument and appends it to the String `chatInput`. 
+  The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and the    message from the url argument and append it to the String `chatInput`. The value of the `chatInput` field then changes again from an empty   string ```"jpolitz: Hello\n"``` to ```"Sohum: How Are You Doing!\n"``` as the method finds the user and the message from the next url        argument and appends it to the String `chatInput`. 
 
 ## Screenshot 2 of using `/add-message`:
 
@@ -65,12 +65,12 @@ public class ChatServer {
   ChatHandler.handleRequest(URI url);
   ```
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  The arguments (url) for this method in this screenshot `/add-message?s=Im Good thanks!&user=OtherPerson` and `/add-message?s=How Are You Doing!&user=Sohum`. The relevant field of this class is the `chatInput` field, which from the previous call to the `/add-message` had a value 
+  The arguments (url) for this method in this screenshot `/add-message?s=Im Good thanks!&user=OtherPerson` and `/add-message?s=How Are You     Doing!&user=Sohum`. The relevant field of this class is the `chatInput` field, which from the previous call to the `/add-message` had a      value 
   ```
   private String chatInput = "Sohum: How Are You Doing!\n";
   ```
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
+  The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and        the message from the url argument and append it to the String `chatInput`.
 
 
 

@@ -72,6 +72,11 @@ public class ChatServer {
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and        the message from the url argument and append it to the String `chatInput`.
 
+## Screenshot of logging into `ieng6` without password authentification:
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%205.03.42%20PM.png?raw=true)
+
+## Something I learned: 
+* During week 3 lab, something I learned that I thought was super cool was how to build and run a web server using localhost using a port. I am still curious on more advanced techniques that can be employed to build more useful tools.  
 
 
 

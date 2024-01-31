@@ -52,7 +52,7 @@ public class ChatServer {
   private String chatInput = "";
   ```
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and the    message from the url argument and append it to the String `chatInput`. The value of the `chatInput` field then changes again from an empty   string ```"jpolitz: Hello\n"``` to ```"Sohum: How Are You Doing!\n"``` as the method finds the user and the message from the next url        argument and appends it to the String `chatInput`. 
+  The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and the    message from the url argument and append it to the String `chatInput`. The value of the `chatInput` field then changes again from string ```"jpolitz: Hello\n"``` to ```"jpolitz: Hello\nSohum: How Are You Doing!\n"``` as the method finds the user and the message from the next url argument and appends it to the String `chatInput`. 
 
 ## Screenshot 2 of using `/add-message`:
 
@@ -67,10 +67,10 @@ public class ChatServer {
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   The arguments (url) for this method in this screenshot `/add-message?s=Im Good thanks!&user=OtherPerson` and `/add-message?s=How Are You     Doing!&user=Sohum`. The relevant field of this class is the `chatInput` field, which from the previous call to the `/add-message` had a      value 
   ```
-  private String chatInput = "Sohum: How Are You Doing!\n";
+  private String chatInput = "jpolitz: Hello\nSohum: How Are You Doing!\n";
   ```
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  The value of the `chatInput` field changes from an empty string ```""``` to ```"jpolitz: Hello\n"``` as the method finds the user and        the message from the url argument and append it to the String `chatInput`.
+  The value of the `chatInput` field changes from an empty string ```jpolitz: Hello\nSohum: How Are You Doing!\n``` to ```"jpolitz: Hello\nSohum: How Are You Doing!\nOtherPerson: Im good thanks"``` as the method finds the user and the message from the url argument and append it to the String `chatInput`.
 
 ## Screenshot of logging into `ieng6` without password authentification:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%205.03.42%20PM.png?raw=true)

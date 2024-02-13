@@ -57,10 +57,29 @@ The `less -G` command-line option in the less pager stands for "highlight search
 ### `-p pattern` (start at pattern):
 When you use the command `less -p pattern` and pass a filename, `less` will open the file and position the view at the first occurrence of the specified search `pattern`. If you use `less -p pattern` on a directory, `less` will display a list of filenames that match the specified `pattern` in the directory. 
 
+### `less -N` used on file:
+* Command:
+```
+```
+* Output:
+```
+```
+* Explanation:
 
 
+### `less -N` used on directory:
 
+### `less -S` used on file:
 
+### `less -S` used on directory:
+
+### `less -G` used on file:
+
+### `less -G` used on directory:
+
+### `less -p pattern` used on file:
+
+### `less -p pattern` used on directory:
 
 
 

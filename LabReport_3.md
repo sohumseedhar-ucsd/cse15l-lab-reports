@@ -26,10 +26,25 @@ public void testReverseInPlace() {
 
 ## The Bug:
 ### Before:
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.42.20%20PM.png?raw=true)
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
 ### After:
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.43.54%20PM.png?raw=true)
-
+```
+static void reverseInPlace(int[] arr) {
+    int[] tempArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+        tempArray[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = tempArray[i];
+    }
+}
+```
 
 
 

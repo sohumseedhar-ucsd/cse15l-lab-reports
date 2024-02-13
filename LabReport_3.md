@@ -24,6 +24,15 @@ public void testReverseInPlace() {
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.38.13%20PM.png?raw=true)
 
+## The Bug:
+* Before:
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.42.20%20PM.png?raw=true)
+* After:
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.43.54%20PM.png?raw=true)
+
+
+
+
 * Which methods in your code are called?
   The `handleRequest` method in the `ChatHandler` class is called to handle the incoming request.
   Example:

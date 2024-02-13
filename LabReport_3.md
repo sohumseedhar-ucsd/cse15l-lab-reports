@@ -25,9 +25,9 @@ public void testReverseInPlace() {
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.38.13%20PM.png?raw=true)
 
 ## The Bug:
-* Before:
+# Before:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.42.20%20PM.png?raw=true)
-* After:
+# After:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.43.54%20PM.png?raw=true)
 
 

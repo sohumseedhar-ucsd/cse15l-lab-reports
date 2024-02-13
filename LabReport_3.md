@@ -49,12 +49,15 @@ static void reverseInPlace(int[] arr) {
 
 ## `less` Command:
 ### `-N` (Line Numbers):
-*The less -N command enables line numbering when using the less pager to view a file. When you open the file with less -N, you'll see line numbers on the left side of the screen, making it easier to navigate and reference specific lines in the file. If you use the less -N command with a directory instead of a file, less will typically display a list of files in the directory along with line numbers.
+*The `less -N` command enables line numbering when using the less pager to view a file. When you open the file with `less -N`, you'll see line numbers on the left side of the screen, making it easier to navigate and reference specific lines in the file. If you use the `less -N` command with a directory instead of a file, less will typically display a list of files in the directory along with line numbers.
 ### `-S` (Chop Long Lines):
-
+When you use `less` with the `-S` option, it causes long lines to be truncated at the edge of the terminal screen, making it easier to read lines that are too long to fit on one line. Using `-S` is particularly useful when viewing files because it displays as much of the line as can fit within the terminal window, making it more convenient to read. When using `less -S` on a directory, `less` will display a list of filenames in the specified directory, and each line will be truncated if the filenames are too long to fit within the terminal width.
 ### `-G` (Highlight Search Matches):
-
+The `less -G` command-line option in the less pager stands for "highlight search matches" and when used it enables the highlighting of search matches in the displayed text. Once you are inside `less`, you can use the search feature by typing `/` followed by a `search pattern` and then pressing Enter. if whatever you use as your `search pattern` is present in the file, the matches will be highlighted, making them visually distinct from the rest of the text.
 ### `-p pattern` (start at pattern):
+When you use the command `less -p pattern` and pass a filename, `less` will open the file and position the view at the first occurrence of the specified search `pattern`. If you use `less -p pattern` on a directory, `less` will display a list of filenames that match the specified `pattern` in the directory. 
+
+
 
 
 

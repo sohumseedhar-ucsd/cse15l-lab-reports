@@ -20,8 +20,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 3 }, input1);
 }
 ```
-## Input That Did Not Induce Failure for `reverseInPlace` Method:
-
+## The Symptom:
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.39.42%20PM.png?raw=true)
 

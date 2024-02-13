@@ -60,11 +60,25 @@ When you use the command `less -p pattern` and pass a filename, `less` will open
 ### `less -N` used on file:
 * Command:
 ```
+(base) sohum@Sohums-MacBook-Pro-280 OANC-GrAF % cd data/written_1/fiction/eggan
+(base) sohum@Sohums-MacBook-Pro-280 eggan % less -N TheStory.txt
 ```
 * Output:
 ```
+1 
+      2         
+      3                 
+      4                         
+      5                                 The Story Continues . . . a serial enovel by Ferd Eggan
+      6                         
+      7                         1 Welcome to Hotel Real Desert 
+      8                         But he never fell into the error of arresting his intellectual
+      9                                 development by any formal acceptance of creed or system, or of
+     10                                 mistaking, for a house in which to live, an inn that is but suitable for
+     11                                 the sojourn of a night in which there are no stars and the moon is in
+     12                                 travail . . 1
 ```
-* Explanation:
+* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file. 
 
 
 ### `less -N` used on directory:

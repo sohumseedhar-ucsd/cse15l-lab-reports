@@ -49,7 +49,7 @@ static void reverseInPlace(int[] arr) {
 
 ## `less` Command:
 ### `-N` (Line Numbers):
-*The `less -N` command enables line numbering when using the less pager to view a file. When you open the file with `less -N`, you'll see line numbers on the left side of the screen, making it easier to navigate and reference specific lines in the file. If you use the `less -N` command with a directory instead of a file, less will typically display a list of files in the directory along with line numbers.
+*The `less -N` command enables line numbering when using the less pager to view a file. When you open the file with `less -N`, you'll see line numbers on the left side of the screen, making it easier to navigate and reference specific lines in the file. If you use the `less -N` command with a directory instead of a file, it will return a message indicating that you passes in a directory argument rather than a filename.
 ### `-S` (Chop Long Lines):
 When you use `less` with the `-S` option, it causes long lines to be truncated at the edge of the terminal screen, making it easier to read lines that are too long to fit on one line. Using `-S` is particularly useful when viewing files because it displays as much of the line as can fit within the terminal window, making it more convenient to read. When using `less -S` on a directory, `less` will display a list of filenames in the specified directory, and each line will be truncated if the filenames are too long to fit within the terminal width.
 ### `-G` (Highlight Search Matches):
@@ -80,7 +80,6 @@ When you use the command `less -p pattern` and pass a filename, `less` will open
 ```
 * Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file. 
 
-
 ### `less -N` used on directory:
 * Command:
 ```
@@ -91,19 +90,38 @@ When you use the command `less -p pattern` and pass a filename, `less` will open
 ```
 fiction/eggan is a directory
 ```
-* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file. 
+* Explanation: This command reads out the message `fiction/eggan is a directory` because the `less-N` command can only take a filename as an input.
+  
 ### `less -S` used on file:
 * Command:
 ```
-
+(base) sohum@Sohums-MBP-280 OANC-GrAF % cd data/written_1/fiction/eggan
+(base) sohum@Sohums-MBP-280 eggan % less -S TheStory.txt
 ```
 * Output:
 ```
-
+                                The Story Continues . . . a serial enovel by Ferd Eggan
+                        
+                        1 Welcome to Hotel Real Desert 
+                        But he never fell into the error of arresting his intellectual
+                                development by any formal acceptance of creed or system, or of
+                                mistaking, for a house in which to live, an inn that is but suitable for
+                                the sojourn of a night in which there are no stars and the moon is in
+                                travail . . 1
 ```
-* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file. 
-### `less -S` used on directory:
+* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file.
 
+### `less -S` used on directory:
+* Command:
+```
+(base) sohum@Sohums-MBP-280 written_1 % less -S fiction
+```
+* Output:
+```
+fiction is a directory
+```
+* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file.
+  
 ### `less -G` used on file:
 
 ### `less -G` used on directory:

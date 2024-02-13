@@ -90,7 +90,7 @@ When you use the command `less -p pattern` and pass a filename, `less` will open
 ```
 fiction/eggan is a directory
 ```
-* Explanation: This command reads out the message `fiction/eggan is a directory` because the `less-N` command can only take a filename as an input.
+* Explanation: This command reads out the message `fiction/eggan is a directory` because the `less-N` command can only take a filename as an argument.
   
 ### `less -S` used on file:
 * Command:
@@ -120,17 +120,58 @@ fiction/eggan is a directory
 ```
 fiction is a directory
 ```
-* Explanation: This command reads out the message `fiction/eggan is a directory` because the `less-N` command can only take a filename as an input.
+* Explanation: This command reads out the message `fiction is a directory` because the `less-S` command can only take a filename as an argument.
   
 ### `less -G` used on file:
-
-
+* Command:
+```
+(base) sohum@Sohums-MBP-280 OANC-GrAF % cd data/written_1/fiction/eggan
+(base) sohum@Sohums-MBP-280 eggan % less -G TheStory.txt
+/house
+```
+* Output:
+```
+mistaking, for a house in which to live, an inn that is but suitable for
+```
+* Explanation: This command reads out the contents of `TheStory.txt` but the top line of the output contains the word `house`, whihc is what we searched for using the `/house` command after the `less -G` command.
+  
 ### `less -G` used on directory:
-
+* Command:
+```
+(base) sohum@Sohums-MBP-280 data % less -G written_1
+```
+* Output:
+```
+written_1 is a directory
+```
+* Explanation: This command reads out the message `written_1 is a directory` because the `less-G` command can only take a filename as an argument. This is because the less -G command uses a keyword search after the command to look for the keyword within the given file argument.
+  
 ### `less -p pattern` used on file:
-
+* Command:
+```
+(base) sohum@Sohums-MBP-280 data % less -G written_1
+```
+* Output:
+```
+                                mistaking, for a ==house== in which to live, an inn that is but suitable for
+                                the sojourn of a night in which there are no stars and the moon is in
+                                travail . . 1
+                        
+                        The Hotel
+                        Hotel is next door to a perfect metaphor for the mind, and thus for
+                                psychoanalysis. In my father's ==house== are many mansions…To get there you
+```
+* Explanation: This command reads out the message `written_1 is a directory` because the `less-G` command can only take a filename as an argument. This is because the less -G command uses a keyword search after the command to look for the keyword within the given file argument.
 ### `less -p pattern` used on directory:
-
+* Command:
+```
+(base) sohum@Sohums-MBP-280 data % less -G written_1
+```
+* Output:
+```
+written_1 is a directory
+```
+* Explanation: This command reads out the message `written_1 is a directory` because the `less-G` command can only take a filename as an argument. This is because the less -G command uses a keyword search after the command to look for the keyword within the given file argument.
 
 
 

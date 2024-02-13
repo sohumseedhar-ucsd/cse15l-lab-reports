@@ -149,29 +149,32 @@ written_1 is a directory
 ### `less -p pattern` used on file:
 * Command:
 ```
-(base) sohum@Sohums-MBP-280 data % less -G written_1
+(base) sohum@Sohums-MBP-280 OANC-GrAF % cd data/written_1/fiction/eggan
+(base) sohum@Sohums-MBP-280 eggan % less -p house TheStory.txt
 ```
 * Output:
 ```
-                                mistaking, for a ==house== in which to live, an inn that is but suitable for
+                                mistaking, for a house in which to live, an inn that is but suitable for
                                 the sojourn of a night in which there are no stars and the moon is in
                                 travail . . 1
                         
                         The Hotel
                         Hotel is next door to a perfect metaphor for the mind, and thus for
-                                psychoanalysis. In my father's ==house== are many mansions…To get there you
+                                psychoanalysis. In my father's house are many mansions…To get there you
 ```
-* Explanation: This command reads out the message `written_1 is a directory` because the `less-G` command can only take a filename as an argument. This is because the less -G command uses a keyword search after the command to look for the keyword within the given file argument.
+* Explanation: This command reads out the contents of the file passed as an argument, while highlighting all instances of the search pattern given. In this case, the search patter was `house`, so all instances of house were highlighted a distinct color in the output, depsite not being visible in the codeblock above.
+  
 ### `less -p pattern` used on directory:
 * Command:
 ```
-(base) sohum@Sohums-MBP-280 data % less -G written_1
+(base) sohum@Sohums-MBP-280 OANC-GrAF % cd data
+(base) sohum@Sohums-MBP-280 data % less -p Story written_1/fiction/eggan
 ```
 * Output:
 ```
-written_1 is a directory
+written_1/fiction/eggan is a directory
 ```
-* Explanation: This command reads out the message `written_1 is a directory` because the `less-G` command can only take a filename as an argument. This is because the less -G command uses a keyword search after the command to look for the keyword within the given file argument.
+* Explanation: This command reads out the message `written_1/fiction/eggan is a directory` because the `less-p` command can only take a filename as an argument. This is because the `less -p` command uses a search pattern argument after `less -p` to look for and highlight the keyword within the given file argument.
 
 
 

@@ -22,7 +22,7 @@ public void testReverseInPlace() {
 ```
 ## The Symptom:
 
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%203.39.42%20PM.png?raw=true)
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-12%20at%204.38.13%20PM.png?raw=true)
 
 * Which methods in your code are called?
   The `handleRequest` method in the `ChatHandler` class is called to handle the incoming request.

@@ -73,7 +73,7 @@ public class ChatServer {
   The value of the `chatInput` field changes from an empty string ```jpolitz: Hello\nSohum: How Are You Doing!\n``` to ```"jpolitz: Hello\nSohum: How Are You Doing!\nOtherPerson: Im good thanks"``` as the method finds the user and the message from the url argument and append it to the String `chatInput`.
 
 ## Absolute Path to Private Key:
-![Image]()
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%203.36.28%20PM.png?raw=true)
 
 ## Absolute Path to Public Key:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%209.37.54%20PM.png?raw=true)

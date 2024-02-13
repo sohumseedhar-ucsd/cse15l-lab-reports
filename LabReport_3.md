@@ -109,7 +109,7 @@ fiction/eggan is a directory
                                 the sojourn of a night in which there are no stars and the moon is in
                                 travail . . 1
 ```
-* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file.
+* Explanation: This command reads out the contents of the file with the margins or width of the text truncated for easier readability. If a file were to contain text spanning the entire width of the screen, this command could be used to truncate the edges of the text to make it easier for someone to read. 
 
 ### `less -S` used on directory:
 * Command:
@@ -120,9 +120,10 @@ fiction/eggan is a directory
 ```
 fiction is a directory
 ```
-* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file.
+* Explanation: This command reads out the message `fiction/eggan is a directory` because the `less-N` command can only take a filename as an input.
   
 ### `less -G` used on file:
+
 
 ### `less -G` used on directory:
 

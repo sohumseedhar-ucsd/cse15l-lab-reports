@@ -65,7 +65,7 @@ When you use the command `less -p pattern` and pass a filename, `less` will open
 ```
 * Output:
 ```
-1 
+      1 
       2         
       3                 
       4                         
@@ -82,9 +82,25 @@ When you use the command `less -p pattern` and pass a filename, `less` will open
 
 
 ### `less -N` used on directory:
+* Command:
+```
 
+```
+* Output:
+```
+
+```
+* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file. 
 ### `less -S` used on file:
+* Command:
+```
 
+```
+* Output:
+```
+
+```
+* Explanation: This command reads out the contents of the file with line numbering enabled on the side. I did not include the entire output since it was too long, but the code snipped should show the utility of having line numbering when reading a file as it makes it easier to navigate and reference lines of a file. 
 ### `less -S` used on directory:
 
 ### `less -G` used on file:

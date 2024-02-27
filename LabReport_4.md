@@ -12,10 +12,14 @@
 
 ## Using Vim to Edit File:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.31.16%20PM.png?raw=true)
-* I used ```vim ListExamples.java``` followed by the ```enter``` key to edit the file. 
+* I used ```vim ListExamples.java``` followed by the ```enter``` key to edit the file.
+  
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.34.05%20PM.png?raw=true)
-* 
+* The keys I pressed were the ```down``` key 43 times and the ```right``` key 12 times to get my cursor to the ```1``` of ```index1```.
+  
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.34.54%20PM.png?raw=true)
+
+
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.35.29%20PM.png?raw=true)
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.36.06%20PM.png?raw=true)
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.36.36%20PM.png?raw=true)

@@ -17,7 +17,7 @@
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.37.33%20PM.png?raw=true)
 
 ## Committing and pushing changes:
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.37.33%20PM.png?raw=true)
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.48.55%20PM.png?raw=true)
 
 
 

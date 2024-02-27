@@ -18,7 +18,7 @@
 * The keys I pressed were the ```<down>``` key 43 times and the ```<right>``` key 12 times to get my cursor to the ```1``` of ```index1```.
   
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.34.54%20PM.png?raw=true)
-* I then used the ```x``` key to delete the ```1``` at that position. 
+* I then used the ```<x>``` key to delete the ```1``` at that position. 
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.35.29%20PM.png?raw=true)
 * 

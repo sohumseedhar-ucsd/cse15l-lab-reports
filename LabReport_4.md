@@ -24,7 +24,7 @@
 * I then used the ```<i>``` key to enter insert mode so that I could insert my edit to the file. 
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.36.06%20PM.png?raw=true)
-* 
+* I then pressed the ```2``` key to make the change ```index1``` to ```index2``` in my file. 
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.36.36%20PM.png?raw=true)
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.37.33%20PM.png?raw=true)

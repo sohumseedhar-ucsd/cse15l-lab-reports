@@ -27,7 +27,10 @@
 * I then pressed the ```2``` key to make the change ```index1``` to ```index2``` in my file. 
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.36.36%20PM.png?raw=true)
+* I then pressed the following keys: ```<escape><:><w><q>``` to save my changes and exit ```vim```. ```<escape>``` switches to command mode and then when followed by ```<:><w><q>```, it writes the changes we made to the file and then exits ```vim```. 
+
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.37.33%20PM.png?raw=true)
+* 
 
 ## Committing and pushing changes:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.48.55%20PM.png?raw=true)

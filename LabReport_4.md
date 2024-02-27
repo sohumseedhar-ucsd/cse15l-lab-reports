@@ -34,6 +34,6 @@
 
 ## Committing and pushing changes:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.48.55%20PM.png?raw=true)
-
+* I first used the ```git init``` followed by ```<enter>``` to reinitialize my existing Git repository. I then ran the ```git add ListExamples.java``` command followed by ```<enter>``` to add my modified file to the staging. I then ran ```git commit -m "Fixed Merge"``` followed by ```<enter>``` to commit my changes to the file in the staging area, while also adding a brief message regarding my modification. I finally ran ```git push origin main``` followed by ```<enter>``` to push and commit my changes to the main branch of the remote repository. 
 
 

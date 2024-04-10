@@ -48,7 +48,7 @@
 
 ## `cat` Command With No Arguments:
 
-![Image]()
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-04-09%20at%2010.17.14%20PM.png?raw=true)
 
 * The working directory when `cat` was ran was `/home`.
 * This command resulted in no output because the `cat` command is used to print out the content of one or more files given by the paths as arguments. Here we used no arguments so the command did not have a path to print out the contents of any files.  
@@ -56,7 +56,7 @@
 
 ## `cat` Command With a Path to a Directory as an Argument:
 
-![Image]()
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-04-09%20at%2010.18.25%20PM.png?raw=true)
 
 * The working directory when `cat lecture1/` was ran was `/home`.
 * This command resulted in the following error message: `cat: lecture1/: Is a directory`. Here, we applied the `cat` command with the argument `lecture1/`, but the `cat` command can only take paths to a file as an argument and does not work when a path to a directory is given as an argument.  
@@ -64,7 +64,7 @@
 
 ## `cat` Command With a Path to a File as an Argument:
   
-![Image]()
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-04-09%20at%2010.19.01%20PM.png?raw=true)
 
 * The working directory when `cat lecture1/Hello.java` was ran was `/home`.
 * When the `cat` command was given a path to a file as an argument, it resulted in the output being the entirety of that file's content being porinted. The output I received when giving a path to the `Hello.java` file was

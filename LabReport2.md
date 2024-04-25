@@ -79,7 +79,7 @@ public class ChatServer {
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%209.37.54%20PM.png?raw=true)
 
 ## Screenshot of logging into `ieng6` without password authentification:
-![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20at%205.03.42%20PM.png?raw=true)
+![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-04-24%20at%208.09.28%20PM.png?raw=true)
 
 ## Something I learned: 
 * During week 3 lab, something I learned that I thought was super cool was how to build and run a web server using localhost using a port. I am still curious on more advanced techniques that can be employed to build more useful tools.  

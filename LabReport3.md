@@ -45,7 +45,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-* The fix addressed the issue because in the original method, the original values of the array that needs to be reversed are being overwritten before the entire array is reversed. As a result, some elements may be swapped multiple times, leading to incorrect results when performing testing for an array with multiple elements. I first wrote a test case expecting the result of reversing an array list with multiple elements to reveal the bug. I then fixed the `reverseInPlace` method by creating `tempArray` to compute the reversed list, and then copy the values from `tempArray` over to the original array `arr`. This way, each element is only swapped once and the reversal of elements occurs correctly.
+* The fix addressed the issue with the original method. The original values of the array being reversed are being overwritten before the entire array is reversed. As a result, some elements get swapped multiple times leading to incorrect reversal when testing for an array with multiple elements. I first wrote a test case expecting the result of reversing an array list with multiple elements to reveal the bug. I then fixed the `reverseInPlace` method by creating `tempArray` to compute the reversed list, and then copy the values from `tempArray` over to the original array `arr`. This way, each element is only swapped once and the reversal of elements occurs correctly.
 
 ## `less` Command:
 ### `-N` (Line Numbers):
@@ -169,7 +169,7 @@ written_1 is a directory
                         Hotel is next door to a perfect metaphor for the mind, and thus for
                                 psychoanalysis. In my father's house are many mansions…To get there you
 ```
-* Explanation: This command reads out the contents of the file passed as an argument, while highlighting all instances of the search pattern given. In this case, the search patter was `house`, so all instances of house were highlighted a distinct color in the output, depsite not being visible in the codeblock above.
+* Explanation: This command reads out the contents of the file passed as an argument, while highlighting every time the search pattern shows up. In this case, the search pattern was `house`, so all instances of house were highlighted a distinct color in the output, depsite not being visible in the codeblock above.
   
 ### `less -p pattern` used on directory:
 * Command:
@@ -181,4 +181,4 @@ written_1 is a directory
 ```
 written_1/fiction/eggan is a directory
 ```
-* Explanation: This command reads out the message `written_1/fiction/eggan is a directory` because the `less-p` command can only take a filename as an argument. This is because the `less -p` command uses a search pattern argument after `less -p` to look for and highlight the keyword within the given file argument.
+* Explanation: This command reads out `written_1/fiction/eggan is a directory` because the `less-p` command can only take a filename as an argument. This is because the `less -p` command uses a search pattern argument after `less -p` to look for and highlight the keyword as the file argument.

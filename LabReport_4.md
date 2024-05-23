@@ -30,7 +30,7 @@
 * I then pressed the following keys: ```<escape><:><w><q><enter>``` to save my changes and exit ```vim```. ```<escape>``` switches to command mode and then when followed by ```<:><w><q>```, it writes the changes we made to the file and then exits ```vim```. 
 
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.37.33%20PM.png?raw=true)
-* I then used the ```bash test.sh``` command followed by the ```<enter>``` key to re run my tests and confirm that the new output shows that the previously failing tests are now passing. 
+* I then used the ```bash test.sh``` command followed by the ```<enter>``` key to run my tests again and confirm that the new output shows  the previously failing tests are now passing. 
 
 ## Committing and pushing changes:
 ![Image](https://github.com/sohumseedhar-ucsd/cse15l-lab-reports/blob/main/Screenshot%202024-02-26%20at%206.48.55%20PM.png?raw=true)
